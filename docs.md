@@ -16,7 +16,11 @@ SNS-Lamba-EventBridge architecture
 e.g I named my function `alerts.py` and the method to run was `process()`, hence my handler should be `alerts.process`.
 
 
+TODO:
 -> create eventbridge rule and use a schedule option, attach rule to lambda function invoke
+
+(need to create a policy to grant permission for invoking lambda functions and also create a role that uses it)
+create the rule, add the target, add the permissions
 
 
 

@@ -27,4 +27,4 @@ These functions are invoked using Amazon EventBridge:
 
 ## Documentation
 - [Blog Post]()
-- [docs.md]()
+- [docs.md](docs.md)
