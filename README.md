@@ -2,8 +2,9 @@
 
 ## About
 This project explores using AWS Lambda Functions which send emails alerts via Amazon SNS.
+
 These functions are invoked using Amazon EventBridge:
-- a recurring schedule to send weather alerts everyday (morning, afternoon and evening),
+- a recurring schedule to send weather alerts for Manchester everyday (morning, afternoon and evening),
 - when a new file is added to an S3 bucket (linking back to [this project](https://github.com/khairahscorner/weather-dashboard))
 
 ## Stack 
