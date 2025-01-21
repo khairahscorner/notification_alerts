@@ -9,7 +9,7 @@ PublishToSNSTopicPolicyName="PublishToSNSTopic"
 S3BucketCreateAccessPolicyName="CreateBucketAccess"
 S3BucketListAndGetObjectPolicyName="ListObjectsInS3BucketsAndGetObjectFromBucket"
 
-Function1RoleName="PublishGameDayAlertsLambdaRole"
+Function1RoleName="PublishAlertsLambdaRole"
 Function2RoleName="AlertsForRetrievedObjectsLambdaRole"
 
 SNS_DEFINITION=$(cat <<EOF
