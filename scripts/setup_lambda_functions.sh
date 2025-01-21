@@ -5,8 +5,8 @@
 export $(grep -v '^#' .env | xargs)
 
 # Other variables
-Function1Name="sample"
-Function2Name="sample2"
+Function1Name="tennis-game-alerts"
+Function2Name="alertsforObjectsRetrievedFromS3"
 
 Function1RoleName="PublishGameDayAlertsLambdaRole"
 Function2RoleName="AlertsForRetrievedObjectsLambdaRole"
